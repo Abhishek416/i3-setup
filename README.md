@@ -25,7 +25,7 @@ I'm using linux mint 20 (Ubuntu based linux) xfce4 edition.
 ## Additional note
 I may have missed somethings while writing this file so just help yourself from internet and other places.
 I have installed it on top of xfce. So I have made Alt Key as mod.
-and i3-gaps(package to have gaps b/w windows) is not in main repo in ubuntu. Follow this  `https://benjames.io/2017/09/03/installing-i3-gaps-on-ubuntu-16-04/` tutorial to install it. 
+and i3-gaps(package to have gaps b/w windows) is not in main repo in ubuntu. Follow this  `https://benjames.io/2017/09/03/installing-i3-gaps-on-ubuntu-16-04/` tutorial to install it. I am using py3status instead of i3status and i3bar. Make changes in `~/.config/i3/config` accordinly if you want to use i3status or i3bar. 
 
 
 ## Intstallation 
@@ -34,7 +34,7 @@ and i3-gaps(package to have gaps b/w windows) is not in main repo in ubuntu. Fol
    `sudo apt-get install i3-wm i3lock i3status suckless-tools i3blocks`
     
    Install some additional packages to make your desktop enjoyable
-   `sudo apt-get install compton nitrogen rxvt-unicode clipit rofi(dmenu alternative) fonts-noto xsettingsd lxappearance scrot viewnior`
+   `sudo apt-get install compton nitrogen rxvt-unicode clipit rofi(dmenu alternative) fonts-noto xsettingsd lxappearance scrot viewnior py3status`
     You can install some extra packages according to your need and if i have missed some. like conky. 
     
  ## Information of Additional Packages
@@ -47,6 +47,7 @@ and i3-gaps(package to have gaps b/w windows) is not in main repo in ubuntu. Fol
    7. Xsettingsd is a simple settings daemon to load fontconfig and some other options. Without this, fonts would look rasterized in some applications.
    8. LXAppearance is used for changing GTK theme icons, fonts, and some other preferences.
    9. Scrot is for taking screenshoot. I use it in my configuration for Print Screen button. I set my Print Screen button to take screenshoot using scrot, then   automatically open it using Viewnior image viewer. 
+   10. py3status(alternative to i3status-bar)
 		
 	
 ## Copy config to your directory
